@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="ref-gifi" package_version="0.1d" locale="de_CH" charset="ISO-8859-1">
+
+
+<msg key="CH_1">AKTIVEN</msg>
+<msg key="CH_2">PASSIVEN</msg>
+<msg key="CH_4">AUFWAND FÜR MATERIAL, WAREN UND DIENSTLEISTUNGEN</msg>
+<msg key="CH_5">PERSONALAUFWAND</msg>
+<msg key="CH_10000">ANLAGEVERMÖGEN</msg>
+<msg key="CH_11000">Forderungen</msg>
+<msg key="CH_11100">Bank</msg>
+<msg key="CH_11110">MWST Vorsteuer auf Investitionen</msg>
+<msg key="CH_11120">Angefangene Arbeiten</msg>
+<msg key="CH_14150">Büromaschinen, EDV</msg>
+<msg key="CH_18000">Gründungsaufwand</msg>
+<msg key="CH_20000">FREMDKAPITAL LANGFRISTIG</msg>
+<msg key="CH_21000">Kurzfristige Finanzverbindlichkeiten</msg>
+<msg key="CH_21200">Sozialversicherungen</msg>
+<msg key="CH_21210">Gesellschafter</msg>
+<msg key="CH_21220">MWST (3,6)</msg>
+<msg key="CH_21230">Passive Rechnungsabgrenzung</msg>
+<msg key="CH_24000">Gesellschafter</msg>
+<msg key="CH_28000">Stammkapital</msg>
+<msg key="CH_28290">Gewinnvortrag</msg>
+<msg key="CH_30000">ÜBRIGER ERTRAG</msg>
+<msg key="CH_31000">Computer</msg>
+<msg key="CH_32000">Software kommerz.</msg>
+<msg key="CH_34000">Beratung</msg>
+<msg key="CH_36000">Essen</msg>
+<msg key="CH_37000">Eigenleistungen</msg>
+<msg key="CH_38000">Bestandesänderungen</msg>
+<msg key="CH_39000">Rabatte, Preisnachlässe</msg>
+<msg key="CH_40000">AUFWANDMINDERUNGEN</msg>
+<msg key="CH_41000">Übrige Produkte</msg>
+<msg key="CH_42000">Software kommerz.</msg>
+<msg key="CH_44000">Aufwand für Drittleistungen</msg>
+<msg key="CH_47000">Einkaufsspesen</msg>
+<msg key="CH_48000">Bestandesänderungen</msg>
+<msg key="CH_49000">Aufwandminderungen</msg>
+<msg key="CH_50000">Löhne und Gehälter</msg>
+<msg key="CH_57000">FAK</msg>
+<msg key="CH_58000">Spesen</msg>
+<msg key="CH_60000">VERWALTUNGS- UND INFORMATIKAUFWAND</msg>
+<msg key="CH_61000">Reinigung</msg>
+<msg key="CH_61900">Unterhalt</msg>
+<msg key="CH_62000">Fahrzeugaufwand</msg>
+<msg key="CH_63000">Betriebsversicherungen</msg>
+<msg key="CH_65000">Übriger Verwaltungsaufwand</msg>
+<msg key="CH_66000">Werbeaufwand</msg>
+<msg key="CH_67000">Produkteentwicklung</msg>
+<msg key="CH_68000">Finanzaufwand</msg>
+<msg key="CH_69000">Abschreibungen</msg>
+<msg key="CH_80000">AUSSERORDENTLICHER UND BETRIEBSFREMDER ERFOLG, STEUERN</msg>
+<msg key="CH_90000">ABSCHLUSS</msg>
+<msg key="CH_91000">ERFOLGSRECHNUNG</msg>
+<msg key="CH_92000">BILANZ</msg>
+<msg key="CH_93000">GEWINNVERWENDUNG</msg>
+<msg key="CH_99000">SAMMEL- UND FEHLBUCHUNGEN</msg>
+</message_catalog>

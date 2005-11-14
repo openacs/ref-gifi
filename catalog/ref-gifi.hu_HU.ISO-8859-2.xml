@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<message_catalog package_key="ref-gifi" package_version="0.1d" locale="hu_HU" charset="ISO-8859-2">
+
+
+<msg key="HU_114">Tárgyi eszközök</msg>
+<msg key="HU_119">Tárgyi eszközök ÉCS</msg>
+<msg key="HU_261">Áruk</msg>
+<msg key="HU_311">Vevõk</msg>
+<msg key="HU_381">Pénztár</msg>
+<msg key="HU_384">Bank</msg>
+<msg key="HU_454">Szállítók</msg>
+<msg key="HU_466">Visszaigényelhetõ ÁFA</msg>
+<msg key="HU_467">Fizetendõ ÁFA</msg>
+<msg key="HU_520">Bérleti díj</msg>
+<msg key="HU_521">Telefon</msg>
+<msg key="HU_599">Egyéb költségek</msg>
+<msg key="HU_814">ELÁBÉ</msg>
+<msg key="HU_870">Árfolyamveszteség</msg>
+<msg key="HU_911">Árbevétel</msg>
+<msg key="HU_970">Árfolyamnyereség</msg>
+<msg key="HU_1">BEFEKTETETT ESZKÖZÖK</msg>
+<msg key="HU_2">KÉSZLETEK</msg>
+<msg key="HU_3">KÖVETELÉSEK</msg>
+<msg key="HU_4">KÖTELEZETTSÉGEK</msg>
+<msg key="HU_5">KÖLTSÉGEK</msg>
+<msg key="HU_8">RÁFORDÍTÁSOK</msg>
+<msg key="HU_9">BEVÉTELEK</msg>
+</message_catalog>
