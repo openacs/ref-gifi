@@ -36,33 +36,36 @@ select acs_reference__new (
 
 
 
--- this is the column details for the gifis
+-- This is the account details for the gifis.
+-- Each account represents two columns
+-- debit column is represented as positive values
+-- credit column is represented as negative values
 
-create table gifi_template_columns (
+create table gifi_template_accounts (
     -- gifi abbreviation or code, a reference which is used to match key in gifi_registry
     code varchar(30) references gifi_templates (code) on delete cascade,
 
     -- title (or short description), should contain #package-key.gifi_code_title#
     title varchar(300) not null,
 
-    -- accno, account number for one column/item in the gifi
+    -- accno, account reference or number
     accno varchar(100) not null
    
 );
 
-comment on table gifi_template_columns is '
+comment on table gifi_template_accounts is '
     This table contains the gifi data available from ref-gifi package
 ';
 
 -- add this table into the reference repository
 select acs_reference__new (
-    'GIFI_TEMPLATE_COLUMNS', -- table_name
+    'GIFI_TEMPLATE_ACCOUNTS', -- table_name
     '2005-09-27',
     'GIFI PUBLISHERS', -- source
     'http://openacs.org/doc/current/ref-gifi', -- source_url
     now() -- effective_date
 );
 
-create index gifi_accno_key on gifi_template_columns (accno);
+create index gifi_accno_key on gifi_template_accounts (accno);
 --
 

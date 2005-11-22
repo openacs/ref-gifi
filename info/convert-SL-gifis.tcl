@@ -27,8 +27,8 @@ source long-parse-lib.tcl
 # set slfilenam [gets stdin]
 # set working_dir [pwd]
 
-if [catch {open [file join $gifi_common_dir gifi_template_columns.dat] w} gifi_fid] {
-    puts stderr "Cannot open gifi_template_columns: $gifi_fid for write."
+if [catch {open [file join $gifi_common_dir gifi_template_accounts.dat] w} gifi_fid] {
+    puts stderr "Cannot open gifi_template_accounts: $gifi_fid for write."
 } else {
     # open output file to add gifi specific data to ref-gifi/sql/common for importing
     puts $errorInfo

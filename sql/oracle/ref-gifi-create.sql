@@ -7,7 +7,7 @@
 -- gifi_registry contains GIFIs available through ref-gifi package
 
 create table gifi_templates (
-    -- gifi abbreviation or code, a reference which is used to match key in gifi_template_columns               
+    -- gifi abbreviation or code, a reference which is used to match key in gifi_template_accounts               
     code char(30)
         constraint gifi_template_pk primary key,
 
@@ -39,7 +39,7 @@ commit;
 end;
 /
 
-create table gifi_template_columns (
+create table gifi_template_accounts (
     -- gifi abbreviation or code, a reference which is used to match key in gifi_templates               
     -- there should be a constraint added here that points to gifi_templates.code
     code char(30),
@@ -47,13 +47,13 @@ create table gifi_template_columns (
     -- gifi title, should contain a two letter reference to entity/country published
     title varchar(300) not null,
 
-    -- accno, account number for one column/item in the gifi
+    -- accno, account reference or number
     accno varchar(100) not null
 
 );
 
-comment on table gifi_template_columns is '
-    This table contains the gifis available from ref-gifi package
+comment on table gifi_template_accounts is '
+    This table contains the gifi data available for each template in ref-gifi package
 ';
 
 -- add this table into the reference repository
@@ -61,7 +61,7 @@ declare
     v_id integer;
 begin
     v_id := acs_reference.new(
-        table_name     => 'GIFI_TEMPLATE_COLUMNS',
+        table_name     => 'GIFI_TEMPLATE_ACCOUNTS',
         source         => 'GIFI PUBLISHERS',
         source_url     => 'http://openacs.org/doc/current/ref-gifi',
         last_update    => to_date('2005-09-28','YYYY-MM-DD'),
